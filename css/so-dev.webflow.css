@@ -1,0 +1,455 @@
+body {
+  background-color: #0d143a;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.page_wrapper {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.parallax {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  max-width: 2200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.p__02 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.p__03 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+}
+
+.p__04 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 5;
+  width: 100vw;
+  height: 100vh;
+}
+
+.p__05 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 6;
+  width: 100vw;
+  height: 100vh;
+}
+
+.p__06 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 7;
+  width: 100vw;
+  height: 100vh;
+}
+
+.p__07 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section_hero {
+  position: static;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: rotateX(0.001deg) rotateY(0deg) rotateZ(0deg);
+  transform: rotateX(0.001deg) rotateY(0deg) rotateZ(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.heading {
+  position: relative;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  z-index: 4;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 16px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #173441;
+  font-size: 6rem;
+  line-height: 1.2;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.body {
+  height: 100vh;
+  background-color: rgba(18, 26, 70, 0);
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.heading-2 {
+  position: relative;
+  top: -2px;
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #0b1016;
+  font-size: 4rem;
+  line-height: 1.2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-right: 3%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.social__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.social__link {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  min-height: 48px;
+  min-width: 48px;
+  margin: 8px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Fa brands 400', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.social__bg {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: #173441;
+  opacity: 0.3;
+  color: #173441;
+  font-size: 1.2rem;
+}
+
+.social__icon {
+  position: relative;
+  z-index: 2;
+  font-family: 'Fa brands 400', sans-serif;
+  color: #7d878b;
+  text-align: center;
+  text-decoration: none;
+}
+
+.social__icon.if--web {
+  top: 9px;
+  opacity: 1;
+  font-family: 'Fa 300', sans-serif;
+  color: #7d878b;
+}
+
+.social__icon.if--web:hover {
+  font-family: 'Fa 300', sans-serif;
+}
+
+.background-video {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  height: 100%;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.div-block {
+  height: 100vh;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.text-block {
+  font-family: 'Fa brands 400', sans-serif;
+}
+
+.text-block-2 {
+  font-family: 'Fa brands 400', sans-serif;
+  font-size: 50px;
+}
+
+.text-span {
+  font-family: 'Fa brands 400', sans-serif;
+}
+
+.text-block-3 {
+  position: relative;
+  z-index: 2;
+  font-family: 'Fa brands 400', sans-serif;
+}
+
+.text-span-2 {
+  font-family: 'Fa brands 400', sans-serif;
+}
+
+.image {
+  position: relative;
+  left: 2px;
+  top: 7px;
+  z-index: 2;
+  display: inline-block;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.image.if--web {
+  background-color: rgba(82, 58, 170, 0.04);
+}
+
+.image.if--web.social__icon {
+  top: 9px;
+}
+
+.image-2 {
+  position: relative;
+  left: 1px;
+  top: 8px;
+}
+
+.scroll_bar {
+  position: fixed;
+  left: 50%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 1000;
+  display: block;
+  width: 10px;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(23, 52, 65, 0.68);
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    height: auto;
+    margin-right: 0%;
+    margin-bottom: 3%;
+  }
+
+  .social__wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@font-face {
+  font-family: 'Fa brands 400';
+  src: url('../fonts/fa-brands-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fa duotone 900';
+  src: url('../fonts/fa-duotone-900.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fa solid 900';
+  src: url('../fonts/fa-solid-900.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fa 300';
+  src: url('../fonts/fa-light-300.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fa 100';
+  src: url('../fonts/fa-thin-100.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fa 400';
+  src: url('../fonts/fa-regular-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
